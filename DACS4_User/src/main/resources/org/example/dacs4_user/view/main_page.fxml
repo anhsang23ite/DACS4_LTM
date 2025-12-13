@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.text.Font?>
+<?import javafx.geometry.Insets?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?> <BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.dacs4_user.controller.MainAppController"
+                                                                          fx:id="mainBorderPane"
+                                                                          prefWidth="1000" prefHeight="600"
+                                                                          style="-fx-background-color: #EFEFEF;"> <top>
+    <HBox style="-fx-background-color: #2E8B57;" alignment="CENTER_LEFT" spacing="15">
+        <padding>
+            <Insets top="15" right="25" bottom="15" left="25"/>
+        </padding>
+        <FontAwesomeIconView glyphName="HOME" size="24" fill="white"/>
+        <Label text="HỆ THỐNG BÁO CÁO SỰ CỐ" style="-fx-text-fill: white; -fx-font-weight: bold;">
+            <font>
+                <Font size="24"/>
+            </font>
+        </Label>
+        <Region HBox.hgrow="ALWAYS"/>
+        <Button text="Đăng xuất" onAction="#logout"
+                style="-fx-background-color: white; -fx-text-fill: #f44336; -fx-font-weight: bold; -fx-font-size: 14px; -fx-padding: 5 15 5 15; -fx-background-radius: 5;"/>
+    </HBox>
+</top>
+
+    <left>
+        <VBox spacing="10" style="-fx-background-color: #f0f0f0;" alignment="TOP_CENTER"
+              prefWidth="220">
+            <padding>
+                <Insets top="20" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <Label fx:id="welcomeLabel" text="Xin chào, User!" style="-fx-font-size: 16px; -fx-font-weight: bold; -fx-text-fill: #4CAF50; -fx-padding: 0 0 10 0;"/>
+
+            <Button text="Tạo Báo cáo mới" onAction="#showNewReportView"
+                    style="-fx-font-size: 14px; -fx-pref-width: 190; -fx-padding: 10 0 10 0; -fx-alignment: CENTER_LEFT; -fx-background-color: #E0E0E0; -fx-background-radius: 5;">
+                <graphic>
+                    <FontAwesomeIconView glyphName="PLUS" size="16" fill="#2E8B57"/>
+                </graphic>
+                <padding>
+                    <Insets left="20"/>
+                </padding>
+            </Button>
+
+            <Button text="Danh sách Báo cáo" onAction="#showReportListView"
+                    style="-fx-font-size: 14px; -fx-pref-width: 190; -fx-padding: 10 0 10 0; -fx-alignment: CENTER_LEFT; -fx-background-color: #E0E0E0; -fx-background-radius: 5;">
+                <graphic>
+                    <FontAwesomeIconView glyphName="LIST_ALT" size="16" fill="#2E8B57"/>
+                </graphic>
+                <padding>
+                    <Insets left="20"/>
+                </padding>
+            </Button>
+
+            <Button text="Thông báo" onAction="#showNotificationView"
+                    style="-fx-font-size: 14px; -fx-pref-width: 190; -fx-padding: 10 0 10 0; -fx-alignment: CENTER_LEFT; -fx-background-color: #E0E0E0; -fx-background-radius: 5;">
+                <graphic>
+                    <FontAwesomeIconView glyphName="BELL" size="16" fill="#2E8B57"/>
+                </graphic>
+                <padding>
+                    <Insets left="20"/>
+                </padding>
+            </Button>
+
+            <Region VBox.vgrow="ALWAYS"/>
+
+            <Button text="Hồ sơ" onAction="#showProfileView"
+                    style="-fx-font-size: 14px; -fx-pref-width: 190; -fx-padding: 10 0 10 0; -fx-alignment: CENTER_LEFT; -fx-background-color: #E0E0E0; -fx-background-radius: 5;">
+                <graphic>
+                    <FontAwesomeIconView glyphName="USER" size="16" fill="#2E8B57"/>
+                </graphic>
+                <padding>
+                    <Insets left="20"/>
+                </padding>
+            </Button>
+
+        </VBox>
+    </left>
+
+    <center>
+        <VBox alignment="TOP_LEFT" spacing="30">
+            <padding>
+                <Insets top="30" right="30" bottom="30" left="30"/>
+            </padding>
+
+            <Label text="Tổng quan hoạt động" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #333333;"/>
+
+            <GridPane hgap="30" vgap="30">
+                <columnConstraints>
+                    <ColumnConstraints percentWidth="33.3"/>
+                    <ColumnConstraints percentWidth="33.3"/>
+                    <ColumnConstraints percentWidth="33.3"/>
+                </columnConstraints>
+
+                <VBox alignment="CENTER_LEFT" spacing="10" GridPane.columnIndex="0" GridPane.rowIndex="0"
+                      style="-fx-background-color: white; -fx-padding: 20; -fx-background-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 10, 0.0, 0, 4);">
+                    <HBox alignment="CENTER_LEFT" spacing="15">
+                        <FontAwesomeIconView glyphName="LINE_CHART" size="36" fill="#2E8B57"/>
+                        <Label text="Tổng số báo cáo"
+                               style="-fx-font-size: 14px; -fx-text-fill: #777777;"/>
+                    </HBox>
+
+                    <Label fx:id="totalReportsLabel"
+                           text="0"
+                           style="-fx-font-size: 36px; -fx-font-weight: bold; -fx-text-fill: #2E8B57;"/>
+                </VBox>
+
+                <VBox alignment="CENTER_LEFT" spacing="10" GridPane.columnIndex="1" GridPane.rowIndex="0"
+                      style="-fx-background-color: white; -fx-padding: 20; -fx-background-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 10, 0.0, 0, 4);">
+                    <HBox alignment="CENTER_LEFT" spacing="15">
+                        <FontAwesomeIconView glyphName="EXCLAMATION_TRIANGLE" size="36" fill="#FFC107"/>
+                        <Label text="Đang chờ xử lý" style="-fx-font-size: 14px; -fx-text-fill: #777777;"/>
+                    </HBox>
+                    <Label fx:id="pendingReportsLabel" text="0" style="-fx-font-size: 36px; -fx-font-weight: bold; -fx-text-fill: #FFC107;"/>
+                </VBox>
+
+                <VBox alignment="CENTER_LEFT" spacing="10" GridPane.columnIndex="2" GridPane.rowIndex="0"
+                      style="-fx-background-color: white; -fx-padding: 20; -fx-background-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 10, 0.0, 0, 4);">
+                    <HBox alignment="CENTER_LEFT" spacing="15">
+                        <FontAwesomeIconView glyphName="CHECK_CIRCLE" size="36" fill="#4CAF50"/>
+                        <Label text="Đã hoàn thành" style="-fx-font-size: 14px; -fx-text-fill: #777777;"/>
+                    </HBox>
+                    <Label fx:id="resolvedReportsLabel" text="0" style="-fx-font-size: 36px; -fx-font-weight: bold; -fx-text-fill: #4CAF50;"/>
+                </VBox>
+            </GridPane>
+
+
+        </VBox>
+    </center>
+
+</BorderPane>
