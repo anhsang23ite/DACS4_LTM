@@ -34,7 +34,9 @@
 
             <Label text="TẠO BÁO CÁO MỚI"
                    style="-fx-text-fill: white; -fx-font-weight: bold;">
-                <font><Font size="24"/></font>
+                <font>
+                    <Font size="24"/>
+                </font>
             </Label>
         </HBox>
     </top>
@@ -47,25 +49,34 @@
                      -fx-padding: 35 50 40 50;
                      -fx-background-radius: 14;
                      -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 14, 0, 0, 6);">
+
             <VBox.margin>
                 <Insets top="32" bottom="32" left="60" right="60"/>
             </VBox.margin>
 
             <Label text="Vui lòng điền thông tin báo cáo:"
-                   style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill:#424242;"/>
+                   style="-fx-font-size: 18px;
+                          -fx-font-weight: bold;
+                          -fx-text-fill:#424242;"/>
 
             <!-- ================= FORM ================= -->
             <GridPane hgap="20" vgap="20" prefWidth="750">
+
                 <columnConstraints>
                     <ColumnConstraints minWidth="160"/>
                     <ColumnConstraints minWidth="540" hgrow="ALWAYS"/>
                 </columnConstraints>
 
                 <!-- TIÊU ĐỀ -->
-                <Label text="Tiêu đề:" GridPane.rowIndex="0"
-                       style="-fx-font-size: 15px;"/>
+                <Label text="Tiêu đề:"
+                       GridPane.rowIndex="0"
+                       GridPane.columnIndex="0"
+                       style="-fx-font-size: 13px;
+                              -fx-text-fill:#555555;"/>
 
-                <TextField fx:id="titleField" GridPane.columnIndex="1"
+                <TextField fx:id="titleField"
+                           GridPane.rowIndex="0"
+                           GridPane.columnIndex="1"
                            style="-fx-background-color:#F5F5F5;
                                   -fx-background-radius: 8;
                                   -fx-border-color:#CCCCCC;
@@ -74,12 +85,19 @@
                                   -fx-font-size: 14px;"/>
 
                 <!-- MÔ TẢ -->
-                <Label text="Mô tả:" GridPane.rowIndex="1"
+                <Label text="Mô tả:"
+                       GridPane.rowIndex="1"
+                       GridPane.columnIndex="0"
                        alignment="TOP_LEFT"
-                       style="-fx-font-size: 15px;"/>
+                       style="-fx-font-size: 13px;
+                              -fx-text-fill:#555555;"/>
 
-                <TextArea fx:id="descriptionArea" GridPane.columnIndex="1"
-                          prefHeight="130" wrapText="true"
+                <TextArea fx:id="descriptionArea"
+                          GridPane.rowIndex="1"
+                          GridPane.columnIndex="1"
+                          prefHeight="130"
+                          wrapText="true"
+                          promptText="Nhập nội dung mô tả chi tiết..."
                           style="-fx-background-color:#F5F5F5;
                                  -fx-background-radius: 8;
                                  -fx-border-color:#CCCCCC;
@@ -88,10 +106,16 @@
                                  -fx-font-size: 14px;"/>
 
                 <!-- ẢNH -->
-                <Label text="Ảnh:" GridPane.rowIndex="2"
-                       style="-fx-font-size: 15px;"/>
+                <Label text="Ảnh:"
+                       GridPane.rowIndex="2"
+                       GridPane.columnIndex="0"
+                       style="-fx-font-size: 13px;
+                              -fx-text-fill:#555555;"/>
 
-                <HBox spacing="12" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                <HBox spacing="12"
+                      GridPane.rowIndex="2"
+                      GridPane.columnIndex="1">
+
                     <TextField fx:id="imagePathField"
                                editable="false"
                                promptText="Đường dẫn file ảnh..."
@@ -103,7 +127,8 @@
                                       -fx-padding:10;
                                       -fx-font-size: 14px;"/>
 
-                    <Button text="Chọn File" onAction="#chooseImageFile"
+                    <Button text="Chọn File"
+                            onAction="#chooseImageFile"
                             style="-fx-background-color:#616161;
                                    -fx-text-fill:white;
                                    -fx-background-radius: 8;
@@ -112,11 +137,16 @@
                 </HBox>
 
                 <!-- VỊ TRÍ -->
-                <Label text="Vị trí/Tọa độ:" GridPane.rowIndex="3"
-                       style="-fx-font-size: 15px;"/>
+                <Label text="Vị trí / Tọa độ:"
+                       GridPane.rowIndex="3"
+                       GridPane.columnIndex="0"
+                       style="-fx-font-size: 13px;
+                              -fx-text-fill:#555555;"/>
 
-                <TextField fx:id="locationField" GridPane.columnIndex="1" GridPane.rowIndex="3"
-                           promptText="Tọa độ"
+                <TextField fx:id="locationField"
+                           GridPane.rowIndex="3"
+                           GridPane.columnIndex="1"
+                           promptText="Ví dụ: 10.762622, 106.660172"
                            style="-fx-background-color:#F5F5F5;
                                   -fx-background-radius: 8;
                                   -fx-border-color:#CCCCCC;
@@ -125,7 +155,7 @@
                                   -fx-font-size: 14px;"/>
             </GridPane>
 
-            <!-- SUBMIT BUTTON -->
+            <!-- SUBMIT -->
             <Button text="GỬI BÁO CÁO"
                     onAction="#submitReport"
                     style="-fx-font-size: 17px;
@@ -135,11 +165,16 @@
                            -fx-padding: 13 28;
                            -fx-background-radius: 10;
                            -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 6);">
-                <VBox.margin><Insets top="20"/></VBox.margin>
+                <VBox.margin>
+                    <Insets top="20"/>
+                </VBox.margin>
             </Button>
 
-            <Label fx:id="reportStatusLabel" maxWidth="600" wrapText="true"
-                   style="-fx-text-fill: #D32F2F; -fx-font-size: 13px;"/>
+            <Label fx:id="reportStatusLabel"
+                   maxWidth="600"
+                   wrapText="true"
+                   style="-fx-text-fill: #D32F2F;
+                          -fx-font-size: 13px;"/>
         </VBox>
     </center>
 

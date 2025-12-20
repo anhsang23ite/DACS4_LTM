@@ -10,7 +10,7 @@ public class RMIClientService {
     private RMIService remoteService;
 
     // Địa chỉ và cổng của RMI Registry trên Server
-    private static final String RMI_HOST = "localhost";
+    private static final String RMI_HOST = "127.0.0.1";
     private static final int RMI_PORT = 1098;
     private static final String RMI_SERVICE_NAME = "RMIService";
 

@@ -37,6 +37,13 @@ public class Report implements Serializable {
     public String getStatus() { return status; }
     public void setStatus(String status) { this.status = status; }
 
+    public void updateStatus(String status) {
+        this.status = status;
+    }
+    public void addFeedback(String feedback) {
+        this.feedback = feedback;
+    }
+
     // feedback
     public String getFeedback() { return feedback; }
     public void setFeedback(String feedback) { this.feedback = feedback; }
