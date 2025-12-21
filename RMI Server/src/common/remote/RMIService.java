@@ -1,4 +1,5 @@
 package common.remote;
+import common.model.Admin;
 import common.model.Report;
 import common.model.User;
 
@@ -6,6 +7,8 @@ import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.util.List;
 public interface RMIService extends Remote {
+    Admin loginAdmin(String email, String password) throws RemoteException;
+
     boolean register(User user) throws RemoteException;
     User login(String email, String password) throws RemoteException;
     boolean sendReport(Report report) throws RemoteException;
@@ -16,5 +19,12 @@ public interface RMIService extends Remote {
     int countReports(int userId) throws RemoteException;
     int countPendingReports(int userId) throws RemoteException;
     boolean updateUserProfile(User user) throws RemoteException;
+
+    List<Report> getAllReports() throws RemoteException;
+    List<User> getUserList() throws RemoteException;
+    boolean addUser(User user) throws RemoteException;
+    boolean updateUser(User user) throws RemoteException;
+    boolean deleteUser(int userId) throws RemoteException;
+
 
 }

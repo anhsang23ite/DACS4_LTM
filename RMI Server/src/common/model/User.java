@@ -13,6 +13,7 @@ public class User implements Serializable {
 
     public User() {}
 
+
     public User(String name, String email, String password, String phoneNumber) {
         this.name = name;
         this.email = email;
@@ -60,3 +61,4 @@ public class User implements Serializable {
         this.phoneNumber = phoneNumber;
     }
 }
+
