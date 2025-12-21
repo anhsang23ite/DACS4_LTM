@@ -290,4 +290,26 @@ public class RMIServiceImpl extends UnicastRemoteObject implements RMIService {
         Timestamp ts = rs.getTimestamp("createdAt");
         if (ts != null) r.setCreatedAt(new Date(ts.getTime()));
     }
+
+    // ================= ADMIN: ALL REPORTS =================
+
+    @Override
+    public List<Report> getAllReports() throws RemoteException {
+        List<Report> list = new ArrayList<>();
+        try (Connection conn = DatabaseConnection.getConnection()) {
+            String sql = "SELECT r.*, l.address, l.latitude, l.longitude FROM reports r " +
+                    "LEFT JOIN locations l ON r.locationId = l.locationId " +
+                    "ORDER BY r.createdAt DESC";
+            PreparedStatement ps = conn.prepareStatement(sql);
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                Report r = new Report();
+                fillReportData(r, rs); // Sử dụng hàm helper bạn đã viết sẵn ở cuối file
+                list.add(r);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return list;
+    }
 }

@@ -85,4 +85,13 @@ public class Report implements Serializable {
         this.location = location;
     }
 
+    // createdAt
+    public Date getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(Date createdAt) {
+        this.createdAt = createdAt;
+    }
+
 }
