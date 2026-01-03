@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75d9acd5-de89-45c4-9447-a7a00e83c64b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/Client_Admin/AdminMainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/Client_Admin/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/Client_Admin/service/RMIClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/Client_Admin/view/AdminStatisticsUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/Client_Admin/view/AdminUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/Client_Admin/view/DangNhapUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/Client_Admin/view/StaffManagementView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/Client_Admin/view/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/common/model/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/common/model/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/common/model/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/common/model/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/common/model/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/common/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/common/remote/RMIService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/main/resources/org/example/admin/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DACS4_LTM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/model/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/model/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/model/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/model/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/model/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/remote/RMIService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/impl/RMIClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/user/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/user/ViewManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/user/controller/EditProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/user/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/user/controller/MainAppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/user/controller/NewReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/user/controller/NotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/user/controller/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/user/controller/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/user/controller/ReportDetailPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/user/controller/ReportListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/user/view/edit_profile_page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/user/view/login_page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/user/view/main_page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/user/view/new_report_page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/user/view/notification_page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/user/view/profile_page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/user/view/register_page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/user/view/report_list_page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/database_patch_migration.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../db/database_schema_corrected.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/java/common/model/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/java/common/model/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/java/common/model/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/java/common/model/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/java/common/model/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/java/common/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/java/common/remote/RMIService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/java/impl/RMIClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/java/org/example/staff/StaffViewManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/java/org/example/staff/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/java/org/example/staff/controller/EditProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/java/org/example/staff/controller/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/java/org/example/staff/controller/StaffLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/java/org/example/staff/controller/StaffMainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/java/org/example/staff/controller/StaffRegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/resources/org/example/staff/view/edit_profile_page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/resources/org/example/staff/view/login_page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/resources/org/example/staff/view/main_page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/resources/org/example/staff/view/profile_page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/src/main/resources/org/example/staff/view/register_page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/common/model/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/common/model/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/common/model/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/common/model/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/common/model/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/common/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/common/remote/RMIService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/impl/RMIServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/server/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/server/ServerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/resources/org/example/server/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatabaseDACS4.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/RMI Server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/src/ServerMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/src/common/model/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/src/common/model/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/src/common/model/Notification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/src/common/model/Report.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/src/common/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/src/common/remote/RMIService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/src/impl/RMIServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/src/server/DatabaseConnection.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3796aUdsRpj9yCTQIlNV7GbkJ2U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.UserApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;AnhSang&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Acer/IdeaProjects/DACS4/LTM/User&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intellij Idea\LTM\User\src\main\resources\org\example\user\view" />
+      <recent name="D:\Intellij Idea\LTM\User\src\main\java\org\example\user" />
+      <recent name="D:\Intellij Idea\LTM\User\src" />
+      <recent name="D:\Intellij Idea\LTM\User\src\common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Intellij Idea\LTM\User\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.user" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75d9acd5-de89-45c4-9447-a7a00e83c64b" name="Changes" comment="" />
+      <created>1766303004962</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766303004962</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.staff.controller.ProfileController"
+            prefWidth="1000" prefHeight="600"
+            style="-fx-background-color: linear-gradient(to bottom, #eef2f3, #ffffff);">
+
+    <center>
+        <VBox alignment="TOP_CENTER" spacing="30">
+            <padding><Insets top="40" bottom="40" left="40" right="40"/></padding>
+
+            <!-- ================= CARD TRUNG TÂM ================= -->
+            <VBox spacing="30" alignment="TOP_CENTER"
+                  prefWidth="700"
+                  style="-fx-background-color: white;
+                         -fx-padding: 35 45 40 45;
+                         -fx-background-radius: 16;
+                         -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 12, 0, 0, 4);">
+
+                <Label text="Thông tin hồ sơ"
+                       style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+
+                <!-- ================= GRID THÔNG TIN ================= -->
+                <GridPane hgap="30" vgap="18" prefWidth="600">
+
+                    <!-- Họ và Tên -->
+                    <Label text="Họ và Tên:" style="-fx-font-size: 16px;"/>
+                    <Label fx:id="nameLabel" GridPane.columnIndex="1"
+                           style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+
+                    <!-- Email -->
+                    <Label text="Email:" GridPane.rowIndex="1" style="-fx-font-size: 16px;"/>
+                    <Label fx:id="emailLabel" GridPane.rowIndex="1" GridPane.columnIndex="1"
+                           style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+
+                    <!-- Số điện thoại -->
+                    <Label text="Số điện thoại:" GridPane.rowIndex="2" style="-fx-font-size: 16px;"/>
+                    <Label fx:id="phoneLabel" GridPane.rowIndex="2" GridPane.columnIndex="1"
+                           style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+                </GridPane>
+
+                <!-- ================= NÚT ================= -->
+                <HBox spacing="22" alignment="CENTER" style="-fx-padding: 12 0 0 0;">
+                    <Button text="Sửa hồ sơ" onAction="#editProfile"
+                            style="-fx-background-color:#4CAF50;
+                                   -fx-text-fill:white;
+                                   -fx-background-radius: 8;
+                                   -fx-padding:12 28;
+                                   -fx-font-size:15px;"/>
+
+                    <Button text="Quay lại" onAction="#goBack"
+                            style="-fx-background-color:#d0d0d0;
+                                   -fx-background-radius: 8;
+                                   -fx-padding:12 28;
+                                   -fx-font-size:15px;"/>
+                </HBox>
+            </VBox>
+        </VBox>
+    </center>
+</BorderPane>

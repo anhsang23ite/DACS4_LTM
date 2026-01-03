@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e369bc0-f60c-4300-8370-1e896f768337" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../User/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhanvien/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/common/model/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/common/model/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/common/model/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/common/model/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/common/model/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/common/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/common/remote/RMIService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DatabaseDACS4.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/RMI Server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/src/ServerMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/src/common/model/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/src/common/model/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/src/common/model/Notification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/src/common/model/Report.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/src/common/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/src/common/remote/RMIService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/src/impl/RMIServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RMI Server/src/server/DatabaseConnection.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="379Cj7lqlV4VJeDRAGkZLx6HUBo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AdminMainApp.executor": "Run",
+    "Application.AdminUI.executor": "Run",
+    "Application.DangNhapUI.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "AnhSang",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Acer/IdeaProjects/DACS4/LTM/Admin",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intellij Idea\LTM\Admin\src\main\java" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e369bc0-f60c-4300-8370-1e896f768337" name="Changes" comment="" />
+      <created>1766306034114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766306034114</updated>
+    </task>
+    <servers />
+  </component>
+</project>
